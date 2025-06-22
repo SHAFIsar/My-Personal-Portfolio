@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Shafi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold gradient-text">Mohamed Shafi</div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="md:hidden mobile-menu hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10 relative">
+            <div class="hero-content">
+                <!-- Profile Image -->
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="https://i.postimg.cc/sXZRXYcn/shafi-linkedin.jpg" alt="Mohamed Shafi" class="profile-image">
+                    <div class="status-indicator"></div>
+                </div>
+
+                <!-- Typography -->
+                <h1 class="hero-title">
+                    <div class="title-line-1">Hello, I'm</div>
+                    <div class="title-line-2">Mohamed Shafi</div>
+                </h1>
+                
+                <!-- Tagline -->
+                <div class="hero-tagline">
+                    <div class="tagline-item">
+                        <i class="fas fa-code"></i>
+                        <span>Web Developer</span>
+                    </div>
+                    <span class="separator">•</span>
+                    <div class="tagline-item">
+                        <i class="fas fa-star"></i>
+                        <span>CSE Student</span>
+                    </div>
+                    <span class="separator">•</span>
+                    <div class="tagline-item">
+                        <i class="fas fa-camera"></i>
+                        <span>Creative Enthusiast</span>
+                    </div>
+                </div>
+                
+                <!-- Description -->
+                <p class="hero-description">
+                    Passionate about using <span class="highlight-blue">technology</span> to create 
+                    <span class="highlight-purple">innovative solutions</span> that make a 
+                    <span class="highlight-cyan">positive impact</span> on people's lives.
+                </p>
+
+                <!-- Buttons -->
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn-primary">
+                        <i class="fas fa-star"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <i class="fas fa-arrow-down"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <i class="fas fa-arrow-down"></i>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-bg">
+            <div class="floating-shape bg-shape-1"></div>
+            <div class="floating-shape bg-shape-2"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="glass-card">
+                        <h3 class="card-title">
+                            <div class="title-dot dot-blue"></div>
+                            My Journey
+                        </h3>
+                        <p class="card-text">
+                            I am a Computer Science Engineering student with a strong foundation in coding and problem-solving, 
+                            achieving 84% in my school studies. Recently, I completed a cloud computing course through NPTEL 
+                            with a score of 70%. I gained practical experience as a web developer intern for one month, where 
+                            I focused on creating user-friendly websites.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 class="card-title">
+                            <div class="title-dot dot-purple"></div>
+                            Beyond Code
+                        </h3>
+                        <p class="card-text">
+                            My hobbies include photography and video editing, allowing me to express my creativity alongside 
+                            my technical skills. I am passionate about using technology to provide high-quality services 
+                            that positively impact people's lives.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="education-card">
+                        <h3 class="card-title">
+                            <div class="education-icon">📚</div>
+                            Education
+                        </h3>
+                        <div class="education-content">
+                            <div class="education-item">
+                                <h4 class="education-degree">B.E. in Computer Science Engineering</h4>
+                                <p class="education-level">3rd Year Student</p>
+                                <p class="education-year">Expected Graduation: 2027</p>
+                            </div>
+                            <div class="certifications">
+                                <h4 class="cert-title">Certifications</h4>
+                                <p class="cert-item">Cloud Computing (NPTEL) - 70%</p>
+                                <p class="cert-item">Web Development Intern</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card stat-green">
+                            <div class="stat-number">84%</div>
+                            <div class="stat-label">Academic Score</div>
+                        </div>
+                        <div class="stat-card stat-blue">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="section-bg">
+            <div class="floating-shape bg-shape-3"></div>
+            <div class="floating-shape bg-shape-4"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Java</h3>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-java" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Python</h3>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-python" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">HTML</h3>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-html" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">CSS</h3>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-css" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-js" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Problem Solving</h3>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress skill-problem" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-extras">
+                <div class="extra-skill">
+                    <div class="extra-icon">💻</div>
+                    <div class="extra-label">Web Development</div>
+                </div>
+                <div class="extra-skill">
+                    <div class="extra-icon">📱</div>
+                    <div class="extra-label">Responsive Design</div>
+                </div>
+                <div class="extra-skill">
+                    <div class="extra-icon">📸</div>
+                    <div class="extra-label">Photography</div>
+                </div>
+                <div class="extra-skill">
+                    <div class="extra-icon">🎥</div>
+                    <div class="extra-label">Video Editing</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="section-bg">
+            <div class="floating-shape bg-shape-5"></div>
+            <div class="floating-shape bg-shape-6"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="gradient-text">Portfolio</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Practice Projects & Learning Experiences</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <div class="project-card" onclick="openProject('https://github.com/SHAFIsar/Landing-Page')">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Responsive Landing Page">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Responsive Landing Page</h3>
+                        <p class="project-description">A modern, responsive landing page with smooth animations</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProject('https://github.com/SHAFIsar/Image-processing-project/blob/main/img%20processing.py')">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" alt="Image Processing">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Image Processing</h3>
+                        <p class="project-description">Advanced image processing application with Python algorithms</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">OpenCV</span>
+                            <span class="project-tag">Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProject('https://github.com/SHAFIsar/My-portfolio')">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Portfolio Website">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">Personal portfolio website with dark theme and animations</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Tailwind</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProject('https://github.com/SHAFIsar/weather-app/blob/main/weather%20')">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" alt="Weather Dashboard">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">Weather application with API integration and responsive design</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-projects">
+                <div class="more-projects-card">
+                    <div class="more-projects-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3 class="more-projects-title">More Projects Coming Soon!</h3>
+                    <p class="more-projects-text">I'm constantly working on new projects and learning new technologies. Stay tuned for more exciting work!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section section-alt">
+        <div class="section-bg">
+            <div class="floating-shape bg-shape-7"></div>
+            <div class="floating-shape bg-shape-8"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">What I can help you with</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">Building responsive and modern websites using the latest technologies</p>
+                    <ul class="service-features">
+                        <li><span class="feature-dot"></span>Responsive Design</li>
+                        <li><span class="feature-dot"></span>Modern UI/UX</li>
+                        <li><span class="feature-dot"></span>Performance Optimization</li>
+                        <li><span class="feature-dot"></span>Cross-browser Compatibility</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Front-end Development</h3>
+                    <p class="service-description">Creating interactive and user-friendly front-end applications</p>
+                    <ul class="service-features">
+                        <li><span class="feature-dot"></span>React Applications</li>
+                        <li><span class="feature-dot"></span>JavaScript Development</li>
+                        <li><span class="feature-dot"></span>CSS Animations</li>
+                        <li><span class="feature-dot"></span>API Integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">UI Design</h3>
+                    <p class="service-description">Designing clean and intuitive user interfaces</p>
+                    <ul class="service-features">
+                        <li><span class="feature-dot"></span>Mockup Creation</li>
+                        <li><span class="feature-dot"></span>Prototype Design</li>
+                        <li><span class="feature-dot"></span>Color Schemes</li>
+                        <li><span class="feature-dot"></span>Typography</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <a href="#contact" class="btn-services">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-bg">
+            <div class="floating-shape bg-shape-9"></div>
+            <div class="floating-shape bg-shape-10"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-details">mohamedshafi3775@gmail.com</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3 class="contact-title">Phone</h3>
+                        <p class="contact-details">+91 70925 30884</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="contact-title">Location</h3>
+                        <p class="contact-details">Chennai, Tamil Nadu, India</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3 class="social-title">Follow Me</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/SHAFIsar" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohamed-shafi-4b242b254/" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:mohamedshafi3775@gmail.com" class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="6" class="form-textarea" required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit">
+                            <span class="submit-text">Send Message</span>
+                            <i class="fas fa-paper-plane submit-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Mohamed Shafi. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/SHAFIsar" class="footer-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohamed-shafi-4b242b254/" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:mohamedshafi3775@gmail.com" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
